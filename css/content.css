@@ -1,0 +1,43 @@
+.principal {
+    padding: 6em 2em 0 2em;
+}
+.principal__conteudo {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.principal__imagem {
+    width: 70vw;
+    border-radius: 5%;
+}
+
+.principal__titulo {
+    color: var(--font-color);
+    padding: 0 0.5em 0 0.5em;
+}
+
+.principal__texto {
+    color: var(--font-color-2);
+    padding: 0 0.5em 0 0.5em;
+}
+
+@media screen and (min-width: 1440px) {
+    .principal {
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal__conteudo {
+        width: 20%;
+    }
+
+    .principal__imagem {
+        width: 100%;
+    }
+}
